@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "baseUrl": ".",
+    "paths": {
+      "basic-ftp": [
+        "./node_modules/basic-ftp",
+        "../ftp-to-ftp-server/node_modules/basic-ftp",
+        "../email-to-ftp-server/node_modules/basic-ftp"
+      ],
+      "kafkajs": [
+        "./node_modules/kafkajs",
+        "../ftp-to-ftp-server/node_modules/kafkajs",
+        "../email-to-ftp-server/node_modules/kafkajs"
+      ],
+      "minio": [
+        "./node_modules/minio",
+        "../ftp-to-ftp-server/node_modules/minio",
+        "../email-to-ftp-server/node_modules/minio"
+      ]
+    },
+    "types": ["node"],
+    "lib": ["ES2022"],
+    "rootDir": "src",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true
+  },
+  "include": ["src"],
+  "exclude": ["dist", "node_modules"]
+}

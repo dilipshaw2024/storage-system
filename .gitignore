@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# TypeScript/build output
+dist/
+*.tsbuildinfo
+
+# Test and coverage output
+coverage/
+.nyc_output/
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# Logs and runtime files
+logs/
+*.log
+*.pid
+*.seed
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
